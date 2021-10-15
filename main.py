@@ -6,7 +6,19 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
+# print(student_heights)
+total = 0 
+how_many = 0
 
+for count in student_heights:
+  how_many += 1
+print(how_many)
+  
+
+for height in student_heights:
+  total+= height
+print(total)
+print(round(total / how_many))
 
 
 
